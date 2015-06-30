@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./css/main.css" />
+    </head>
+    <body>
+        <div id="header">websocket聊天demo</div>
+        <div id="room" style="display: none"></div>
+        <div id="content">
+            <div id="message">
+            </div>
+            <form id="send-form">
+                <input id="send-message" />
+                <input id="send-button" type="submit" value="Send" />
+            </form>
+        </div>
+        <script src="./lib/jquery/jquery.min.js"></script>
+        <script src="./lib/socket.io/socket.io.js"></script>
+        <script src="./js/chat.js"></script>
+        <script src="./js/chat_ui.js"></script>
+    </body>
+</html>

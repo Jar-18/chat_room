@@ -1,0 +1,97 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #eeeeee;
+}
+#header{
+    color: #fff;
+    border-color: #145fd7;
+    background-color: #4a87ee;
+    color: #fff;
+    overflow: hidden;
+    min-width: 30px;
+    height: 43px;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 17px;
+    line-height: 44px;
+}
+#send-form{
+    position: fixed;
+    bottom: 0px;
+    margin-bottom: 0px;
+    display: block;
+    width: 100%;
+}
+input{
+    display: inline-block;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #555555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+#send-message{
+    width: 75%;
+}
+#send-button{
+    width: 23%;
+}
+#room{
+    background: #ddd;
+    margin-bottom: 1em;
+}
+#messages{
+    width: 100%;
+    height: 300px;
+    overflow: auto;
+    background-color: #eee;
+    margin-bottom: 1em;
+    margin-right: 10px;
+}
+
+.chat-card {
+    position: relative;
+    margin-top: 20px;
+    overflow: hidden}
+.chat-card.has-time {
+    margin-top: 40px; }
+.chat-card .content {
+    display: inline-block;
+    padding: 12px 15px;
+    font-size: 13px;
+    width: 75%;
+    border-radius: 3px; }
+.chat-card .content::after {
+    content: '';
+    width: 0px;
+    height: 0px;
+    display: inline-block;
+    border-width: 10px 10px;
+    border-style: solid;
+    top: 0px;
+    position: absolute; }
+.chat-card.left .content {
+    background: white;
+    color: #1c1c1c;
+    float: left;
+    margin-left: 30px;
+    position: relative; }
+.chat-card.left .content::after {
+    border-color: white transparent transparent transparent;
+    left: -10px; }
+.chat-card.right .content {
+    color: #ffffff;
+    background: #1c1c1c;
+    float: right;
+    margin-right: 30px; }
+.chat-card.right .content::after {
+    border-color: #1c1c1c transparent transparent transparent;
+    right: 20px; }
